@@ -1,0 +1,9 @@
+
+POST http://localhost:3003/api/blogs
+content-type: application/json
+
+{"title": "Kevin Durant's 51 point game", "author": "Kevin", "url": "http://www.nba.com", "likes": "300"}
+
+###
+Get http://localhost:3003/api/blogs
+content-type: application/json
