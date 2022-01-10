@@ -49,14 +49,20 @@ blogsRouter.delete('/:id', async (request, response) => {
   const blog = await Blog.findById(body.id);
 
   if (blog.user.toString() === userid.toString()) {
-    await Blog.findByIdAndDelete(blog.id);
-    return response.status(200).end();
+    const result = await Blog.findByIdAndDelete(blog.id);
+    return response.json(result);
   }
   response.status(400).json({ error: 'invalid owner' });
 });
 
 blogsRouter.put('/:id', async (request, response) => {
   const body = request.body;
+  const token = request.token;
+  const user = request.user;
+
+  if (!token || !user.id) {
+    return response.status(401).json({ error: 'token missing or invalid' });
+  }
 
   body.likes++;
   const blog = {

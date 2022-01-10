@@ -29,9 +29,9 @@ authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNhd
 {"title": "Kobe Bryant's 81 point game", "author": "Kevin", "url": "http://reddit.com", "likes": 0}
 
 ####
-delete http://localhost:3003/api/blogs/61c525305bd40cee96adf185
+delete http://localhost:3003/api/blogs/61dbbf1c51819bfc9b84ce2a
 content-type: application/json
-authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNhdmV5MDMiLCJpZCI6IjYxYzUyNGEyNWJkNDBjZWU5NmFkZjE3ZCIsImlhdCI6MTY0MDMxMTQ2MywiZXhwIjoxNjQwMzEzMjYzfQ.4SQEiX3xXcUZhJZ_Sf5HjiNRXWlkI4M4K2L02edmorY
+authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNhdmV5MDMiLCJpZCI6IjYxYzUyNGEyNWJkNDBjZWU5NmFkZjE3ZCIsImlhdCI6MTY0MTc5MTI0NSwiZXhwIjoxNjQxNzkzMDQ1fQ.9FlNno5E1KgZzEWOOquHRbyNxyn4x6HrIi4C8oe1MR4
 
 
 ###
