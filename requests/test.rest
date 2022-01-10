@@ -21,6 +21,12 @@ content-type: application/json
 authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNhdmV5MDMiLCJpZCI6IjYxYzUyNGEyNWJkNDBjZWU5NmFkZjE3ZCIsImlhdCI6MTY0MDMwOTk3MiwiZXhwIjoxNjQwMzExNzcyfQ.NAyXowMwZ14LSN2JxmuGavJxKhcEksJtPdDamIwYLTg
 
 {"title": "Kobe Bryant's 81 point game", "author": "Kevin", "url": "http://reddit.com", "likes": "400"}
+###
+Put http://localhost:3003/api/blogs/61dbb01431438855ae7a14d9
+content-type: application/json
+authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNhdmV5MDMiLCJpZCI6IjYxYzUyNGEyNWJkNDBjZWU5NmFkZjE3ZCIsImlhdCI6MTY0MTc4NzM0NSwiZXhwIjoxNjQxNzg5MTQ1fQ.f-ovD4ggGhzbsEFS4LkF8qcKoaoX6lCFVkG1rSmTTsI
+
+{"title": "Kobe Bryant's 81 point game", "author": "Kevin", "url": "http://reddit.com", "likes": 0}
 
 ####
 delete http://localhost:3003/api/blogs/61c525305bd40cee96adf185
