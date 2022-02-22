@@ -7,6 +7,10 @@ const userSchema = new mongoose.Schema({
     minlength: [3, 'Minimum length is 3'],
     required: true,
   },
+  admin: {
+    type: Boolean,
+    default: false,
+  },
   name: String,
   passwordHash: String,
   blogs: [

@@ -2,4 +2,4 @@ post http://localhost:3003/api/users/
 Content-Type: application/json
 
 {"blogs": [],
-"name": "Kevin Nguyen", "username": "savey03", "password": "hello123"}
+"name": "user", "username": "user", "password": "user"}
